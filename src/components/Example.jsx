@@ -6,5 +6,5 @@ export const Example = () => {
       <h2>Reminder</h2>
       <Todo />
     </>
-  )
-}
+  );
+};

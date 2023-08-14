@@ -1,5 +1,5 @@
-import { Form } from "./Form"
-import { List } from "./List"
+import { Form } from "./Form";
+import { List } from "./List";
 
 export const Todo = () => {
   return (
@@ -7,5 +7,5 @@ export const Todo = () => {
       <List />
       <Form />
     </>
-  )
-}
+  );
+};

@@ -1,3 +1,1 @@
-export const List = () => {
-
-}
+export const List = () => {};
