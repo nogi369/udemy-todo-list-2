@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { Form } from "./Form";
 import { List } from "./List";
+import { Form } from "./Form";
 
 export const Todo = () => {
   const todosList = [
@@ -28,10 +28,14 @@ export const Todo = () => {
     setTodos(newTodos);
   };
 
+  const createTodo = (todo) => {
+    setTodos([...todos, todo]);
+  };
+
   return (
     <>
       <List todos={todos} deleteTodo={deleteTodo} />
-      <Form />
+      <Form createTodo={createTodo} />
     </>
   );
 };
